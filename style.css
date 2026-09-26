@@ -135,3 +135,24 @@ footer {
 .text-centre:hover{
     background-color: red;
 }
+
+
+.search-box {
+    text-align: center;
+    margin: 30px;
+}
+
+.search-box input {
+     padding: 12px;
+     width: 280px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

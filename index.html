@@ -9,6 +9,7 @@
 </head>
 
 <body>
+     <!-- nav bar start -->
 
     <nav>
       <a href="index.html"><h2>🎬 Movie Zone</h2></a>
@@ -18,12 +19,25 @@
             <li><a href="movies.html">Movies</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
-    </nav>
+    </nav> 
+
+    <!-- nav bar end -->
+     <!-- search Box start
+     -->
+<div class="search-box">
+    <input type="text" id="search"
+        placeholder="Search your favorite movie...">
+
+    <button onclick="searchMovies()">Search 🔍</button>
+</div>
+ <!-- search box end -->
+
+ <!-- section of car start -->
 
     <section class="hero">
         <h1>Welcome to Movie Zone</h1>
         <p>Discover your favorite movies</p>
-    </section>
+  
 
     <h2 class="title">Popular Movies</h2>
 
@@ -77,11 +91,68 @@
             </div>
         </div>
 
+        <div class="movie-card">
+            <img src="images/got1.jpg" alt="Movie Poster GOT">
+
+            <div class="movie-info">
+                <h3>Game Of Thrones</h3>
+                <p>Action | Suspense</p>
+                <p>⭐ 9.2/10</p>
+                <p>2015</p>
+                <button>Watch Now👀</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="images/breaking bad1.jpg" alt="Movie Poster BREAKING BAD">
+
+            <div class="movie-info">
+                <h3>Breaking Bad</h3>
+                <p>Action | Suspense | Mistery</p>
+                <p>⭐ 9.5/10</p>
+                <p>2019</p>
+                <button>Watch Now👀</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="images/house of dragon 1.jpg" alt="Movie Poster HOUSE OF DRAGON">
+
+            <div class="movie-info">
+                <h3>House Of Dragon</h3>
+                <p>Action | Suspense</p>
+                <p>⭐ 8.9/10</p>
+                <p>2023</p>
+                <button>Watch Now👀</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="images/money heist1.jpg" alt="Movie Poster MONEY HEIST">
+
+            <div class="movie-info">
+                <h3>Money Heist</h3>
+                <p>Action | Suspense | Robbery</p>
+                <p>⭐ 9.4/10</p>
+                <p>2018</p>
+                <button>Watch Now👀</button>
+            </div>
+        </div>
+
+
+
+
     </div>
+      </section>
+
+      <!-- section of card end -->
+       <!-- footer start -->
 
     <footer>
         <p>© 2026 Movie Zone | All Rights Reserved</p>
     </footer>
+
+    <!-- footer end -->
 
 </body>
 </html>
