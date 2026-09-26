@@ -156,3 +156,22 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+
+#moveCarousel{
+    width: 100px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#movieCarousel img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+   
+}
+
+@media(max-width:576px){
+    #movieCarousel img{
+        height: 220px;
+    }
+}
