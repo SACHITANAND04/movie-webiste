@@ -319,3 +319,11 @@ body.dark .title {
         padding:25px;
      }
    }
+
+
+   .genre{
+    background:grey;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+   }
