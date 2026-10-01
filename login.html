@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navbar Start -->
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            🎬 Movie Zone
+        </a>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login page</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Login Form -->
+     <div class="login-centre">
+        <h2>Login</h2>
+        <form onsubmit="loginUser(event)">
+            <input type="email"
+            id="email" placeholder="Enter email"
+            required>
+
+            <input type="password"
+            id="email"
+            placeholder="Enter email"
+            required>
+
+           <button type="submit" class="login-btn">
+           Login
+           </button>
+        </form>
+
+        <p>Welcome To Movie Zone 🎬</p>
+        <script>
+            function loginUser(event){
+                event.preventDefault();
+                let email = document.getElementById("email").value;
+                let password = document.getElementById("password").value;
+                if(email && password){
+                    alert("Login Successful ! 🎬")
+                    window.loaction.href="index.html";
+                }
+            }
+        </script>
+
+     </div>
+</body>
+</html>
