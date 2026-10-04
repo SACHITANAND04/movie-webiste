@@ -437,3 +437,16 @@ html{
     color: #ff3b3b;
     border: 2px solid #ff3b3b;
 }
+
+button{
+    background: #ff3b3b;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #e00000;
+}

@@ -540,6 +540,9 @@
     <!-- Footer End -->
 
 
+    <button onclick="shareMovie()">📤Share</button>
+
+
 
 
     <!-- Bootstrap JS -->
@@ -639,7 +642,14 @@
             }
 
         }
-       
+
+        function shareMovie(){
+            navigator.share({
+                title:"movie zone",
+                text:"check out this movie!"
+            });
+        }
+        
     </script>
     <a href="#top" class="top-btn">↑</a>
 </body>
