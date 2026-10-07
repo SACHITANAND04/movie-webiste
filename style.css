@@ -450,3 +450,21 @@ button{
 button:hover{
     background: #e00000;
 }
+
+.more-btn{
+    padding: 25px;
+    margin-top: 10px;
+    color: white;
+    background-color: violet;
+    border-radius: 5px solid red;
+    font-size: bold;
+    display: flex;
+
+
+}
+
+.more-btn:hover{
+    background-color: grey;
+    color: yellow;
+    
+}
