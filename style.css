@@ -468,3 +468,38 @@ button:hover{
     color: yellow;
     
 }
+
+.suprise-section{
+    text-align:center;
+    padding: 40px 20px;
+    margin: 30px auto;
+    max-width: 750px;
+    background: linear-gradient(135deg, #252525, #111);
+    border: 1px solid #ff3b3b;
+    border-radius: 15px;
+    color: white;
+
+}
+.suprise-btn{
+    background: #ff3b3b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius:25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.suprise-btn:hover{
+    background: white;
+    color: #ff3b3b;
+    transform: scale(1.08);
+}
+
+#movieResult{
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}

@@ -78,6 +78,18 @@
 
     </div>
     </section>
+
+    <!-- movies section -->
+     <section class="suprise-section">
+        <h2>🎬can't decide what to watch?</h2>
+        <p>let movie zone pick a movie for you!</p>
+        <button class="suprisemovie()" class="suprise-btn">
+       🎲  Suprise Me
+        </button>
+        <div id="movieResult"></div>
+      
+     </section>
+     <!-- movie section end -->
      <footer class="bg-dark text-white pt-5 pb-3">
     <div class="container">
         <div class="row">
@@ -274,6 +286,27 @@
  function ShowMovieInfo(){
     alert("Avengers: Endgame\nGenre: Action | Adventure\nRating: 4/5\nAvailable to watch");
  }
+
+ const movies =[
+    "avengers: Endgame",
+    "spider-man: No way home",
+    "interstellar",
+    "inception",
+    "the dark knight",
+    "avatar",
+    "iron man",
+    "doctor strange",
+    "joker",
+    "guradians of the gallaxy"
+ ];
+
+ function supriseMovie(){
+    const randomIndex = Math.floor(
+        math.random() * movie.length
+    );
+    document.getElementById("movieResult").innerHTML = "🍿 your Movie Pick:" + movies[randomIndex];
+ }
+ 
 </script>
 
 
